@@ -1,0 +1,27 @@
+# Ignore compiled binaries
+*.exe
+*.o
+*.obj
+
+# Ignore debug and output files
+*_debug.txt
+*_encrypted.txt
+*_decrypted.dat
+
+# Keep keymats and inputs
+!*_keymat.txt
+!*_in.dat
+
+# Ignore system/project config
+.vscode/
+.settings/
+.project
+.cproject
+
+# Build system artifacts
+build/
+
+# Exclude Eclipse or IDE-generated build folders
+Debug/
+*.mk
+*.d
