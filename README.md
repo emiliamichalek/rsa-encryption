@@ -36,5 +36,5 @@ g++ -std=c++17 -I"path/to/boost" src/RSA.cpp -o rsa_exec
 
 ### Included Test Files
 
-4 key files: 0_keymat.txt, ..., 3_keymat.txt
-4 input files: 0_in.dat, ..., 3_in.dat
+- 4 key files: 0_keymat.txt, ..., 3_keymat.txt
+- 4 input files: 0_in.dat, ..., 3_in.dat
