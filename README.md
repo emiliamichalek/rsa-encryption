@@ -26,7 +26,9 @@ g++ -std=c++17 -I"path/to/boost" src/RSA.cpp -o rsa_exec
 
 ### How to Run
 
-1. ./rsa_exec
+1. ```bash
+   ./rsa_exec
+   ```
 
 ### It will:
 - Use input files like 0_keymat.txt, 0_in.dat, etc.
